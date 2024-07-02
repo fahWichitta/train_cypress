@@ -18,6 +18,7 @@ describe('Regis', () => {
     cy.get('input[id="repeatedPassword"]').type(patient_info['Confirm'])
     cy.get('[colspan="2"] > .button').click()
     cy.get('a[href="logout.htm"]').click()
+    cy.get('a[href="logout.htm"]').click()
   })//Regis_username_already
 })
 
